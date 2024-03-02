@@ -5,7 +5,7 @@ This JavaScript code includes functionalities for Form Validation, Local Storage
 2. Local Storage: The tasks are stored in the local storage using localStorage.setItem("tasks", JSON.stringify(tasks)), and they are retrieved from local storage during initialization using JSON.parse(localStorage.getItem("tasks")). This allows tasks to persist even if the user refreshes the page or closes the browser.
 
 3. CRUD Operations:
-4. 
+   
 * Create: Adding a new task is done through the addTask(title) function, where a new task object is created and pushed into the tasks array.
 * Read: Rendering tasks onto the webpage is done through the renderTasks() function, which iterates over the tasks array and dynamically creates HTML elements to display each task.   
 * Update: Editing a task is performed through the editTask(index) function, which allows users to modify the title of an existing task. The updated tasks are then stored in local storage,      and the UI is re-rendered to reflect the changes.
