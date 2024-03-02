@@ -1,0 +1,17 @@
+#stack-container {
+  display: flex;
+  flex-direction: column-reverse; /* to make the stack FILO */
+  align-items: center;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: #ccc;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

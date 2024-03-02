@@ -1,0 +1,7 @@
+This code is written in JavaScript and it listens for the 'DOMContentLoaded' event on the document, which indicates that the HTML document has been completely loaded and parsed. Once this event is fired, the provided function is executed.
+
+Within this function, there is another function defined named updateLocalDateTime(). This function is responsible for updating the displayed local date and time on the webpage. It retrieves the current date and time using new Date() and then formats it into a string using the toLocaleString() method, which converts the date and time to a string representation based on the user's locale. Then it updates the text content of the HTML element with the id 'local-time' to display the current date and time.
+
+After defining the updateLocalDateTime() function, the code immediately calls this function once to display the initial local date and time on the webpage.
+
+Finally, it sets up a recurring task using setInterval(). This function takes two arguments: the first one is the function to be executed (updateLocalDateTime in this case), and the second one is the interval in milliseconds at which the function should be executed. In this case, it's set to 1000 milliseconds (1 second). This ensures that the displayed local date and time on the webpage is updated every second.

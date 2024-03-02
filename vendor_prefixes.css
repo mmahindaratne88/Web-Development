@@ -1,0 +1,7 @@
+.example {
+    -webkit-border-radius: 5px; /* Safari, Chrome, iOS */
+    -moz-border-radius: 5px; /* Firefox */
+    -ms-border-radius: 5px; /* Internet Explorer */
+    -o-border-radius: 5px; /* Opera (Presto engine) */
+    border-radius: 5px; /* Standard syntax */
+}
