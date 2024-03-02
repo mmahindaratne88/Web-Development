@@ -15,6 +15,6 @@ Functions:
 
 HTML Interaction:
 
-The HTML must have elements with the IDs cart-items and total for the JavaScript code to interact with. cart-items is presumably a <ul> (unordered list) element where the cart items will be displayed, and total is an element where the total value of the cart will be displayed.
+The HTML must have elements with the IDs cart-items and total for the JavaScript code to interact with. cart-items is presumably an (unordered list) element where the cart items will be displayed, and total is an element where the total value of the cart will be displayed.
 
 Overall, this code provides basic functionalities for managing a shopping cart, including adding items, removing items, and updating the cart display.
