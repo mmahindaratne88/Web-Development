@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <p>This is a sample paragraph.</p>
+  <button id="highlightBtn">Highlight Text</button>
+
+  <script>
+    // <link>jQuery</link> code to add a click event listener to the button
+    $('#highlightBtn').click(function() {
+      $('p').addClass('highlight');
+    });
+  </script>
+
+</body>
+</html>
